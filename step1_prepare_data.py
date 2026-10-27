@@ -1,5 +1,5 @@
 """
-CE 766 - Step 1: Prepare and Explore Real Hydrological Data
+Step 1: Prepare real hydrological data
 Loads the authentic daily streamflow dataset downloaded from the
 National Water Data Portal (NWIC / Ministry of Jal Shakti),
 calculates key hydrological statistics, and plots the real inflow patterns.
@@ -7,10 +7,12 @@ calculates key hydrological statistics, and plots the real inflow patterns.
 
 import os
 import pandas as pd
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # 1. Directory paths
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
 
