@@ -1,6 +1,6 @@
 """
-CE 766 - Step 2: Reservoir Mass Balance Simulation (Real Government Data)
-Simulates Hirakud Reservoir using 100% real CWC observed inflows:
+Step 2: Reservoir mass balance simulation
+Simulates Hirakud reservoir using real CWC observed inflows:
 1. Standard Operating Policy (SOP)
 2. Official CWC 1988 Rule Curve
 Evaluates baseline reliability, flood routing, and drought deficits.
@@ -9,11 +9,13 @@ Evaluates baseline reliability, flood routing, and drought deficits.
 import os
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
 # 1. Directory paths
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
 
