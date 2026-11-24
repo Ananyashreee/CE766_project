@@ -1,0 +1,4 @@
+Operational Policy,Peak Outflow (m3/s),Flood Attenuation (%),Days Exceeding Safe Q,Volumetric Reliability (%),Time Reliability (%),Deficit Index (F1)
+Standard Operating Policy (SOP),47547.9,0.1,77,100,100,0
+Official CWC 1988 Rule Curve,36471.7,23.3,159,100,99.9,0.00014
+Optimized Policy (NSGA-II Knee Point),25164.3,47.1,168,100,99.7,0.000134

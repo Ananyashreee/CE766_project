@@ -1,0 +1,9 @@
+Stress Scenario,Policy,Volumetric Reliability (%),Time Reliability (%),Mean Oct 1 Elevation (ft),Min Oct 1 Elevation (ft),Years Attaining FRL (%),Max Monthly Deficit (MCM),Peak Outflow (m3/s)
+Baseline Conditions,CWC 1988,100.0,99.9,629.7,627.8,84.0,27.7,36471.7
+Baseline Conditions,Optimized,100.0,99.7,628.8,623.2,76.0,27.3,25164.3
+Scenario A: Demand Growth (+15%),CWC 1988,99.8,99.7,629.6,627.2,84.0,105.2,36439.3
+Scenario A: Demand Growth (+15%),Optimized,99.0,97.4,628.7,622.9,76.0,430.1,25131.9
+Scenario B: Drier Monsoon (-10% Inflow),CWC 1988,100.0,99.9,629.5,625.7,84.0,35.9,29155.1
+Scenario B: Drier Monsoon (-10% Inflow),Optimized,99.9,99.2,628.5,622.6,76.0,54.6,22090.5
+"Scenario C: Combined Stress (+15% Demand, -10% Inflow)",CWC 1988,99.8,99.5,629.5,624.9,84.0,117.5,29122.7
+"Scenario C: Combined Stress (+15% Demand, -10% Inflow)",Optimized,98.5,96.5,628.4,622.2,68.0,446.1,22090.5

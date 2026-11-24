@@ -1,0 +1,16 @@
+Hydrological Regime,Policy,Time Reliability (Rt %),Volumetric Reliability (Rv %),Resilience (gamma),Vulnerability (Max Month MCM),Peak Outflow (m3/s)
+Extreme Flood (2003),SOP,100.0,100.0,1.0,0.0,47547.9
+Extreme Flood (2003),CWC 1988,100.0,100.0,1.0,0.0,36471.7
+Extreme Flood (2003),Optimized,96.2,99.6,0.071,27.3,25164.3
+Normal Inflow (2010),SOP,100.0,100.0,1.0,0.0,13106.8
+Normal Inflow (2010),CWC 1988,100.0,100.0,1.0,0.0,11557.5
+Normal Inflow (2010),Optimized,100.0,100.0,1.0,0.0,11557.5
+Severe Drought (2002),SOP,100.0,100.0,1.0,0.0,4858.0
+Severe Drought (2002),CWC 1988,100.0,100.0,1.0,0.0,11526.6
+Severe Drought (2002),Optimized,100.0,100.0,1.0,0.0,11526.6
+Severe Drought (2017),SOP,100.0,100.0,1.0,0.0,3901.3
+Severe Drought (2017),CWC 1988,100.0,100.0,1.0,0.0,8641.1
+Severe Drought (2017),Optimized,100.0,100.0,1.0,0.0,8498.9
+Full Record (2001-2025),SOP,100.0,100.0,1.0,0.0,47547.9
+Full Record (2001-2025),CWC 1988,99.9,100.0,0.25,27.7,36471.7
+Full Record (2001-2025),Optimized,99.7,100.0,0.133,27.3,25164.3
